@@ -676,6 +676,23 @@ a.btn-l{
 i.xm{
     display: none;
 }
+.befores{
+    position: relative;
+    display: flex;
+    padding: 9rem 9% 2rem;
+    color: #fff;  
+}
+.befores::before{
+    content: "";
+    position: absolute;
+    transform: skewY(-3deg);
+    background: #1b1b1b;
+    bottom: 60px;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
 
 
 
